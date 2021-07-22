@@ -20,7 +20,7 @@ namespace csharp.controllers
 
             try
             {
-                var url = "https://apiecommerce.redpagos.co:8530/CheckOut/MethodGenerateTransaction";
+                var url = "https://apiecommerce.pagosinteligentes.com:8070/CheckOut/MethodGenerateTransaction";
                 var request = (HttpWebRequest)WebRequest.Create(url);
                 request.Method = "POST";
                 request.ContentType = "application/json";
